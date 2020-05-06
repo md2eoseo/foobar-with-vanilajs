@@ -4,6 +4,10 @@
   font-family: "Shadows Into Light", cursive;
 }
 
+body {
+  transition: ease 0.5s;
+}
+
 .circle {
   display: flex;
   justify-content: center;
@@ -12,7 +16,7 @@
   height: 300px;
   border-radius: 50%;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -21,6 +25,7 @@
 
 .number {
   font-size: 40px;
+  transition: ease 0.5s;
 }
 
 /* https://codepen.io/erikjung/pen/XdWEKE */
